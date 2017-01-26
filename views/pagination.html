@@ -1,0 +1,13 @@
+<!-- Pagination -->
+<div class="w3-center w3-padding-32" ng-controller="MainCtrl">
+	<ul class="w3-pagination">
+    	<li><a ng-click="gallery_1 = true" ng-class="gallery_1 ? 'w3-black' : 'w3-hover-black'" href="#/gallery_one">1</a></li>
+      	<li><a ng-click="gallery_1 = false" ng-class="!gallery_1 ? 'w3-black' : 'w3-hover-black'" href="#/gallery_two">2</a></li>
+      	<li ng-show="gallery_1" ng-click="gallery_1 = false">
+      		<a class="w3-hover-black" href="#/gallery_two">»</a>
+      	</li>
+      	<li ng-show="!gallery_1" ng-click="gallery_1 = true">
+      		<a class="w3-hover-black" href="#/gallery_one">»</a>
+      	</li>
+    </ul>
+</div>
