@@ -33,6 +33,12 @@ app.controller('MainCtrl', ['$scope', function($scope, $http) {
  		});
 	});
 
+ 	$scope.closeModal = function() {
+ 		$scope.modal.fadeOut(500, function() {
+  			$(this).find('img').remove();
+  			$scope.modal_reqs.find('li').remove();
+ 		})
+ 	}
  
  
 /*	$(document).ready(function() {
