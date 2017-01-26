@@ -1,6 +1,5 @@
-<!-- Portfolio Section -->
- 
-<div class="w3-padding-32 w3-content" ng-controller="MainCtrl" id="portfolio">
+
+<div class="w3-padding-32 w3-content" id="portfolio">
 
   <div class="w3-container">
     <div id="thinkful">
@@ -17,13 +16,13 @@
 <!-- First Photo Grid-->
   <div class="w3-row-padding"> <!--row 1-->
     <div class="w3-third w3-container w3-margin-bottom">
-      <img src="http://i.imgur.com/4BsdaE8.png" style="width:100%" class="shadow pointer modal-image" data-modal-image="http://i.imgur.com/4BsdaE8.png" data-modal-href="https://treyrader11.github.io/streetfighter-refactor/" data-requirements='<li>Need to add code to app.js that will cause Ryu to switch to his "looking cool" pose when the user presses the "x" key.</li><li>When the user releases "x", Ryu should go back to standing still.</li><li>Provide some text in the .main container div that tells users how to control Ryu.</li><li>Add music that will be paused when a specific key is held down.</li>'>
+      <img src="images/madlibs.png" style="width:100%" class="shadow pointer modal-image" data-modal-image="images/madlibs.png" data-modal-href="https://treyrader11.github.io/thinkful-madlibs/" data-requirements='<li>When a user inputs text in any of the inputs at the top of the page, the text at the bottom should update automatically. For instance, when you set the value of "female name" to "Sue" in the top of the interface, all instances of the "female name" placeholder text should be replaced with "Sue"..</li><li>Need to create an external JavaScript file that creates a module for this app and that adds a controller to that module. Need to link to this file in your HTML template.</li><li>Support Male and Female Names: Set a scope variable for gender, give users a way to set it in your template, and modify the rendered Mad Lib template so that it conditionally displays gender appropriate language (e.g., substituting he/she, him/her, his/her as necessary) according to gender chosen for name.</li><li></li>'>
       <div class="w3-container w3-white">
-        <p class="app-title"><b>Streetfighter App</b><i class="fa fa-caret-down"></i></p>
+        <p class="app-title"><b>Madlibs App</b><i class="fa fa-caret-down"></i></p>
         <p>This project brings together DOM manipulation, events and effects, while building a Street Fighter themed interactive web page. The purpose is to practice using the jQuery API and get a better sense of what the workflow might look like when using jQuery for interactive effects on a web page.</p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom">
+    <!--<div class="w3-third w3-container w3-margin-bottom">
       <img src="http://i.imgur.com/A3IzMuZ.png" style="width:100%" class="pointer shadow modal-image" data-modal-image="http://i.imgur.com/A3IzMuZ.png" data-modal-href="https://treyrader11.github.io/shopping-list-app/" data-requirements="<li>Users should be able to enter items they need to purchase.</li><li>Users should be able to check and uncheck items on the list.</li><li>Users should also be able to permanently remove items from the list.</li>">
       <div class="w3-container w3-white">
         <p class="app-title"><b>The Shopping List</b><i class="fa fa-caret-down"></i></p>
@@ -38,13 +37,13 @@
           <p>Applying functions and jQuery to build a "Hot or Cold" game. In this game, the computer randomly selects a number between 1 and 100, and the player then tries to guess the number. The player gets feedback for each guess - "hot" if their guess was close, and "cold" if their guess was far.</p>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
      
   
   <!-- Second Photo Grid-->
-  <div class="w3-row-padding"> <!--row 2-->
-    <div class="w3-third w3-container w3-margin-bottom">
+  <!--<div class="w3-row-padding"> --><!--row 2-->
+   <!-- <div class="w3-third w3-container w3-margin-bottom">
       <img src="http://i.imgur.com/tMMjMOE.png" style="width:100%" class="shadow pointer modal-image" data-modal-image="http://i.imgur.com/tMMjMOE.png" data-modal-href="https://treyrader11.github.io/cajunMusic-quiz/" data-requirements="<li>User must answer at least five questions.</li><li>Each question must display one at a time.</li><li>Must tell the user each question's number and how many questions remain.</li><li>Must Compare the user's answer with the correct answer to determine a score.</li><li>Must display the user's final score once all questions have been answered.</li><li>Must use objects to represent the questions and answers.</li>">
       <div class="w3-container w3-white">
         <div class="w3-container w3-white">
@@ -71,36 +70,18 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
 
 
  <!-- Pagination -->
   <div class="w3-center w3-padding-32">
     <ul class="w3-pagination">
-      <li><a class="w3-black" href="#">1</a></li>
-      <li><a class="w3-hover-black" href="#">2</a></li>
-      <li><a class="w3-hover-black" href="#">3</a></li>
-      <li><a class="w3-hover-black" href="#">4</a></li>
-      <li><a class="w3-hover-black" href="#">»</a></li>
+      <li><a class="w3-hover-black" href="#/gallery_one">1</a></li>
+      <li><a class="w3-black" href="#/gallery_two">2</a></li>
+      <li><a class="w3-hover-black" href="#/gallery_one">»</a></li>
     </ul>
   </div>
 
 
-<!--modal-->
-  <div id="modal" class="w3-modal">
-    <div class="w3-modal-content">
-      <div class="w3-container">
 
-        <span class="w3-closebtn" ng-click="closeModal()">&times;</span>
-        <ul id="list"></ul>
-        <div id="modal-footer">
-          <p>Click on image for live preview of app</p>
-        </div>
-        <p><strong>Project requirements:</strong></p>
-        <ul class="" id="requirements">
-        
-        </ul>
-      </div>
-    </div>
-  </div>
 </div>
