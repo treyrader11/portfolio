@@ -39,6 +39,17 @@ app.controller('MainCtrl', ['$scope', function($scope, $http) {
   			$scope.modal_reqs.find('li').remove();
  		})
  	}
+
+ 	$scope.image_row.each(function(index, row) { //there are two rows
+ 		console.log(row)
+
+ 		$(row).find('i').click(function() {
+  			$(this).next().find('p:first-child').next('p').show('fold');
+  		})
+  		$(row).find('p:first-child').click(function() {
+ 			$(this).next('p').slideToggle();//the p after the first p
+  		})
+  	});
  
  
 /*	$(document).ready(function() {
