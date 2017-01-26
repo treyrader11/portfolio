@@ -4,6 +4,7 @@
   <title>Trey Rader</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/flavicon2.png">
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,8 +25,9 @@
 
   <header ng-include="'views/header.html'"></header>
 
-  <!--<section ng-include="'views/portfolio.html'"></section>-->
   <main ng-view></main>
+
+  <section ng-include="'views/pagination.html'"></section>
 
   <!--modal-->
   <div id="modal" class="w3-modal">
@@ -45,7 +47,7 @@
     </div>
   </div>
 
-  <section ng-include="'views/about.html'"></section>
+  <section id="about" ng-include="'views/about.html'"></section>
 
   <section ng-include="'views/references.html'"></section>
     
