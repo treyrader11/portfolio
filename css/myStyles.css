@@ -1,0 +1,89 @@
+p.para-header {
+    font-family: 'Lato', sans-serif;
+
+}
+
+.pointer:hover {
+	cursor: pointer;
+}
+
+#modal-footer {
+	text-align: center;
+}
+
+#requirements {
+	list-style-type: circle;
+}
+
+.mySlides {
+	border: dotted gray 1px;
+}
+
+#modal-footer > p {
+	color: gray;
+    font-size: 20px;
+}
+
+#second-img,
+#third-img {
+	display: none;
+}
+
+.shadow:hover {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+
+.w3-hover-opacity {
+	/*class for making elements lose opacity when hover*/
+}
+
+.para-header > a {
+	text-decoration: none;
+	color: #4127bd;
+}
+
+.para-header > a:hover {
+	text-decoration: underline;
+}
+
+.para-header > a:active {
+	opacity: .5;
+	font-size: 18px;
+}
+
+
+#thinkful > img {
+	width: 135px;
+	margin-left: -12px;
+}
+
+/* .nav-list > li {
+ 	list-style-type: none;
+ 	display: inline;
+ }
+*/
+ #thinkful {
+ 	margin-top: 0px;
+ }
+
+
+.w3-row-padding p:first-child:hover {
+	cursor: pointer;
+}
+
+.w3-row-padding p:first-child:active {
+	opacity: .5;
+}
+
+.w3-row-padding p:first-child > i {
+	text-align: right;
+ 	margin-left: 9px;
+}
+
+ .w3-row-padding p + p { /*means the p next to it.*/
+ 	display: none;
+ }
+.text-center {
+	text-align: center;
+}
