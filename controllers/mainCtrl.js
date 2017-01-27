@@ -28,7 +28,7 @@ app.controller('MainCtrl', ['$scope', function($scope, $http) {
   			var img_src = $(this).data("modal-image")
   			var modal_href = $(this).data("modal-href");
   			var requirements = $(this).data("requirements")
-  			var img = '<a href="' +modal_href+ '" target="_blank"><img class="mySlides" src="' + img_src + '" style="width:100%"></a>';
+  			var img = '<a href="' +modal_href+ '" target="_blank"><img class="mySlides image-fade" src="' + img_src + '" style="width:100%"></a>';
   			$scope.modal_imagesList.append(img);
  			$scope.modal_reqs.html(requirements)
  			$scope.modal.fadeIn(500);

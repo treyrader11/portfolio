@@ -88,6 +88,10 @@ p.para-header {
 	text-align: center;
 }
 
+.image-fade:hover {
+	opacity: .5;
+}
+
 
 /*ANIMATIONS*/
 
