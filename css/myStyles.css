@@ -29,6 +29,10 @@ p.para-header {
 	display: none;
 }
 
+.shadow {
+	border-radius: 5%;
+}
+
 .shadow:hover {
     box-shadow: 10px 10px 5px #888888;
 }
@@ -58,11 +62,7 @@ p.para-header {
 	margin-left: -12px;
 }
 
-/* .nav-list > li {
- 	list-style-type: none;
- 	display: inline;
- }
-*/
+
  #thinkful {
  	margin-top: 0px;
  }
