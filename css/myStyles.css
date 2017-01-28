@@ -3,12 +3,22 @@ p.para-header {
 
 }
 
+/*.cover-image {
+	background-image: url('../images/rocky&grasshoppers.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}*/
+
 .pointer:hover {
 	cursor: pointer;
 }
 
 #modal-footer {
 	text-align: center;
+}
+.round {
+	border-radius: 157px;
 }
 
 #requirements {
@@ -31,6 +41,10 @@ p.para-header {
 
 .shadow {
 	border-radius: 5%;
+
+}
+.shadow:active{
+	margin-top: 5px;
 }
 
 .shadow:hover {
