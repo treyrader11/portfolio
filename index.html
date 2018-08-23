@@ -12,19 +12,24 @@
   <link rel="stylesheet" href="css/myStyles.css" type="text/css">
 </head>
 
-
 <body ng-controller="MainCtrl">
 
 <!-- Page Content -->
 <div class="w3-main w3-padding-large">
 
-  
-
   <header ng-include="'views/header.html'" id="home"></header>
+
+  <section id="about" ng-include="'views/about.html'"></section>
 
   <main ng-view></main>
 
   <section ng-include="'views/pagination.html'"></section>
+
+  <section ng-include="'views/references.html'"></section>
+
+  <section ng-include="'views/contact.html'"></section>
+
+  <footer ng-include="'views/footer.html'"></footer>
 
   <!--modal-->
   <div id="modal" class="w3-modal">
@@ -38,35 +43,20 @@
         </div>
         <p><strong>Project requirements:</strong></p>
         <ul class="" id="requirements">
-        
+
         </ul>
       </div>
     </div>
   </div>
 
-  <section id="about" ng-include="'views/about.html'"></section>
-
-  <section ng-include="'views/references.html'"></section>
-    
-  <section ng-include="'views/contact.html'"></section>
-  
-  <footer ng-include="'views/footer.html'"></footer>
-  
 </div>
-
-
-
-
-
-    
-
 
 
  <!--jqueryUI & jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 
-    
+
 
  <!--angular libraries-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
@@ -78,12 +68,5 @@
 
     <!--controllers-->
     <script src="controllers/mainCtrl.js"></script>
-
-
-   
-
-
-
 </body>
 </html>
-
